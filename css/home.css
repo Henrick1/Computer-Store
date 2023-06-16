@@ -1,0 +1,188 @@
+.fundo {
+    width: calc(99% - 1%); height:100%;
+    background-image: linear-gradient(rgb(91, 36, 122), rgb(27, 206, 223));
+    padding: 1%;
+}
+.slogan {
+    color: white;
+    width: 100%; height: 30px;
+    background: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: century;
+}
+.menu {
+    width: calc(100% - 30px); height: 80px;
+    background: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.homebutton {
+    width: 70px; height: 70px;
+    position: absolute;
+    left: calc(5% - 15px);
+}
+.logo {
+    height: 70px; width: 70px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: calc(5% + 15px);
+}
+.cartbutton {
+    width: 40px; height: 40px;
+    background: rgb(91, 36, 122);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: calc(5% + 15px);
+}
+.cartbutton:hover {
+    background-color: rgb(50, 36, 122);
+    cursor: pointer;
+}
+.cart {
+    background-image: url(https://th.bing.com/th/id/R.00dc54fe03a8b808f6c9b5ff65ac906d?rik=APohceGRT6eFxQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_61586.png&ehk=83y0rfKOZSms07DTB69qWEjqrrzGf3x8XcPjyUeSKvM%3d&risl=&pid=ImgRaw&r=0);
+    height: 20px; width: 20px;
+    background-size: 100% 100%;
+    margin-left: 5%;
+    background-size: 100%;
+}
+.imgcart {
+    width: 20px; height: 20px;
+}
+.products {
+    width: 20%; height: 40px;
+    background-color: rgb(91, 36, 122);
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+.products:hover {
+    background-color: rgb(50, 36, 122);
+    cursor: pointer;
+}
+.banner {
+    width: 100%; height: 1100%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frase {
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: black;
+    border-radius: 100px;
+    padding:4%;
+    text-shadow: 0 0 100px rgb(27, 206, 223);
+}
+.bannerfundo {
+    width: 100%; height: 800px;
+    filter: blur(2px);
+}
+.opinion {
+    width: calc(100% - 38px); height: 400px;
+    margin: auto;
+    background-color: black;
+    padding: 15px;
+    border: 4px solid black;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.opitittle {
+    position: relative;
+    top: 0;
+    margin: 10px auto;
+    font-size: 40px;
+    color: white;
+}
+.opinionbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; height: 80%;
+    margin: auto;
+}
+.opisquare {
+    width: 400px;height: 200px;
+    background: linear-gradient(rgb(91, 36, 122), rgb(27, 206, 223));
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 5px;
+}
+.opisquare:hover {
+    zoom: 150%;
+    border-radius: 5px;
+}
+.nome {
+    margin-top: 10px;
+}
+.opiimg {
+    width: 80px; height: 80px;
+    border: 3px solid gray;
+    margin-top: 10px;
+}
+.proddesc {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.opidesc {
+    font-size: 15px;
+    margin-top: 5px;
+}
+.location {
+    width: calc(100% - 30px); height: 200px;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+.map {
+    width: 225px; height: 150px;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.locdesc {
+    font-size: 25px;
+    margin: 0 auto;
+    color: white;
+}
+footer {
+    background-color: rgb(40, 40, 40);
+    width: 100%; height: 100px;
+    text-align: center;
+    padding-top: 2%;
+    display: block;
+}
+.contact {
+    color: white;
+}
+.inform {
+    color: white;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.linkimg {
+    margin-top: 7px;
+    width: 30px; height: 30px;
+}

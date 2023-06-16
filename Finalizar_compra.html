@@ -1,0 +1,79 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Octacore Informática</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/finalizar_compra.css"/>       
+        <script src="javascript/Finalizar_compra.js" defer></script>
+        <link rel="shortcut icon" type="image/jpg" href="extra/logofinal.png"/>
+    </head>
+
+    <body>
+        <div class="slogan">
+            <h1 class="slogan">Octacore, é o único caminho a seguir</h1>
+        </div>
+        <div class="menu">
+            <a class="homebutton" href="home.html"><img class="logo" src="extra/logofinal.png"></img</a>
+            <a type="button" class="products" href="Produtos.html">Produtos</a>
+            <div class="cartbutton">
+                <a class="cart" href="carrinhos.html"><img class="imgcart" src="extra/carrinho.png"></img></a>
+            </div>
+        </div>
+        <div class="corpo">
+            <div class="fundo">
+                <div id="cartao">
+                    <form id="compra">               
+                        <div id="produtos">
+                        
+                        </div>
+                        <h3 class="titlecard">Cartão de credito!</h3>
+                        <p class="title">Digite seu nome:</p>
+                        <br>
+                        <input type="text" id="nome_compra" name="nome_compra" placeholder="Nome" class="inputs">
+                        <br>
+                        <p class="title">Digite os 12 digitos atrás do cartão:<p></p>
+                        <br>
+                        <input type="text" id="cartao_compra" name="cartao_compra" placeholder="Números" class="inputs">
+                        <br>
+                        <p class="title">Digite a data de expiração:<p>
+                        <br>
+                        <input type="text" id="expdate_compra" name="expdate_compra" placeholder="EXP DATE" class="inputs">
+                        <br>
+                        <p class="title">Digite o código de segurança:<p>
+                        <br>
+                        <input type="text" id="codigoseg_compra" name="codigoseg_compra" placeholder="Código de segurança" class="inputs">
+                        <br>
+                        <br>
+                        <button class="buttons" type="button" id="botao" onclick="finalizar_compra()">Finalizar compra!</button>
+                    </form>
+                </div>
+                <div id="pix"> 
+                    <form id="fpix">               
+                        <div id="produtospix">
+                        
+                        </div>
+                        <h3 class="titlecard">Pix!</h3>
+                        <p class="title">Para realizar utilize esse codigo pix para o CPF ou de um scan no QR code: </p>
+                        <br>
+                        <p class="titlepix">XXX.XXX.XXX-XX</p>
+                        <br>
+                        <img class="qrcode" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/WELCOME_QR_code.svg/200px-WELCOME_QR_code.svg.png"><img>
+                        <br>
+                        <br>
+                        <button class="buttons" type="button" id="botao" onclick="finalizar_compra_pix()">Fazer PIX!</button>
+                    </form>
+                </div>
+                       
+            </div>
+        </div>
+        <footer>
+            <p class="contact">Contato comercial (41) 9226-0207</p>
+            <p class="inform">Horário de Funcionamento: 9:00 às 17:00 de Segunda a Sábado</p>
+            <a class="link" href="https://pt-br.facebook.com/"><img class="linkimg" src="extra/facebook.png"></img></a>
+            <a class="link" href="https://twitter.com/?lang=pt-br"><img class="linkimg" src="extra/twitter.png"></img></a>
+            <a class="link" href="https://br.pinterest.com/#top"><img class="linkimg" src="extra/pinterest.png"></img></a>
+            <a class="link" href="https://www.instagram.com/"><img class="linkimg" src="extra/instagram.png"></img></a>
+        </footer>
+    </body>
+</html>

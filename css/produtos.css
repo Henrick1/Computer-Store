@@ -1,0 +1,232 @@
+.slogan {
+    color: white;
+    width: 100%; height: 30px;
+    background: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: century;
+}
+.menu {
+    width: calc(100% - 30px); height: 80px;
+    background: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.homebutton {
+    width: 70px; height: 70px;
+    position: absolute;
+    left: calc(5% - 15px);
+}
+.logo {
+    height: 70px; width: 70px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: calc(5% + 15px);
+}
+.cartbutton {
+    width: 40px; height: 40px;
+    background: rgb(91, 36, 122);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: calc(5% + 15px);
+}
+.cartbutton:hover {
+    background-color: rgb(50, 36, 122);
+    cursor: pointer;
+}
+.cart {
+    background-image: url(https://th.bing.com/th/id/R.00dc54fe03a8b808f6c9b5ff65ac906d?rik=APohceGRT6eFxQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_61586.png&ehk=83y0rfKOZSms07DTB69qWEjqrrzGf3x8XcPjyUeSKvM%3d&risl=&pid=ImgRaw&r=0);
+    height: 20px; width: 20px;
+    background-size: 100% 100%;
+    margin-left: 5%;
+    background-size: 100%;
+}
+.imgcart {
+    width: 20px; height: 20px;
+}
+.products {
+    width: 20%; height: 40px;
+    background-color: rgb(91, 36, 122);
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+.products:hover {
+    background-color: rgb(50, 36, 122);
+    cursor: pointer;
+}
+.fundo {
+    width: calc(99% - 1%); height:calc(100% - 4%);
+    background-image: linear-gradient(rgb(91, 36, 122), rgb(27, 206, 223));
+    padding: 1%;
+}
+.principal {
+    width: 80%; height: calc(90% - 4%);
+    background: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+    overflow: scroll;
+    animation: transitionIn 0.75s;
+}
+.pagedesc {
+    color: white;
+    font-size: 50px;
+}
+.cards{
+    width: calc(20% - 20px); height: calc(40% - 20px);
+    border: solid 3px rgb(91, 36, 122);
+    border-radius: 3px;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin: 2%;
+    float: left;
+    padding: 10px;
+}
+.botas{
+    background-color: brown;
+}
+.cardimg1 {
+    background-image: url(https://a-static.mlcdn.com.br/800x560/notebook-gamer-acer-nitro-5-an515-54-58cl-intel-core-i5-8gb-1tb-128gb-ssd-156-nvidia-gtx-1650/magazineluiza/226192400/b5eb243c94fb20b5a5aa37ab02aabe75.jpg);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg2 {
+    background-image: url(https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/r/ares-mancer-spu-verde-002_2.png);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg3 {
+    background-image: url(https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/t/g/tgt-carbon-intel-rx-gtx-001_12.jpg);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg4 {
+    background-image: url(https://m.media-amazon.com/images/I/71q0b19m+gL._AC_SX679_.jpg);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg5 {
+    background-image: url(https://images.kabum.com.br/produtos/fotos/101294/101294_1554900693_index_g.jpg);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg6 {
+    background-image: url(https://lojasbecker.vteximg.com.br/arquivos/ids/2242781-1000-1000/1-capa-teclado-acer-nitro-gamer-brazil.jpg?v=637921941739030000);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg7 {
+    background-image: url(https://static.fnac-static.com/multimedia/Images/PT/NR/81/b5/7e/8304001/1540-1.jpg);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg8 {
+    background-image: url(https://images.kabum.com.br/produtos/fotos/113405/monitor-lg-led-25-full-hd-ips-hdmi-1ms-25um58-g_1591183670_original.jpg);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.cardimg9 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBfa7iuhYBlW0zxl5sR-VCg5Mbl-86ypmMaw&usqp=CAU);
+    width: 40%; height: 40%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 3px solid gray;
+}
+.nome {
+    font-size: 24px;
+}
+.proddesc {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.preco {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.botao_comprar {
+    background: purple;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    bottom: 5px;
+}
+.botao_comprar:hover {
+    background: rgb(50, 36, 122);
+    cursor: pointer;
+}
+.button {
+    background: purple;
+    color: white;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.button:hover {
+    background: rgb(50, 36, 122);
+    cursor: pointer;
+}
+footer {
+    background-color: rgb(40, 40, 40);
+    width: 100%; height: 100px;
+    text-align: center;
+    padding-top: 2%;
+    display: block;
+}
+.contact {
+    color: white;
+}
+.inform {
+    color: white;
+    margin-top: 7px;
+    text-decoration: none;
+}
+.linkimg {
+    margin-top: 7px;
+    width: 30px; height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
